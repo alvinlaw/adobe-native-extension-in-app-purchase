@@ -37,18 +37,19 @@ public class BillingActivity extends Activity {
 				resultObject.put("receipt", purchase.getOriginalJson());
 				resultObject.put("receiptType", "GooglePlay");
 
-				IabHelper mHIabHelper = ExtensionContext.mHelper;
-				mHIabHelper.consumeAsync(purchase,
-						new IabHelper.OnConsumeFinishedListener() {
+				/*
+				 * IabHelper mHIabHelper = ExtensionContext.mHelper;
+				 * mHIabHelper.consumeAsync(purchase, new
+				 * IabHelper.OnConsumeFinishedListener() {
+				 * 
+				 * @Override public void onConsumeFinished(Purchase purchase,
+				 * IabResult result) { // TODO Auto-generated method stub
+				 * 
+				 * }
+				 * 
+				 * });
+				 */
 
-							@Override
-							public void onConsumeFinished(Purchase purchase,
-									IabResult result) {
-								// TODO Auto-generated method stub
-
-							}
-
-						});
 			} catch (JSONException e) {
 				e.printStackTrace();
 			}
