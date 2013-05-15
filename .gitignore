@@ -1,0 +1,31 @@
+temp
+build.config
+
+# Flash Builder
+AS/bin
+actionscript/bin
+.actionScriptProperties
+.flexProperties
+.flexLibProperties
+
+# Eclipse
+.settings
+.project
+
+# Android
+NativeAndroid/bin
+android/bin
+android/gen
+android/res
+android/lint.xml
+.classpath
+proguard-project.txt
+project.properties
+
+# Xcode
+xcuserdata
+
+# OS X
+Icon
+Thumbs.db
+.DS_Store
